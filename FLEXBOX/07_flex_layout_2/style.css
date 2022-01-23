@@ -18,40 +18,41 @@ body {
 }
 .content{
     display: flex;
-    flex:1;
-}
+    flex: 1;
 
+}
+  
 .sidebar {
     width: 300px;
     background: royalblue;
     display: flex;
-    flex-direction: column;
     flex-shrink: 0;
+    width: 300px;
     padding: 16px;
 }
-a{
+ul,a{
     text-decoration: none;
-    font-size: 24px;
-    color: white;
-}
-ul{
     list-style: none;
+    color: white;
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
 }
 li{
     padding-top: 20px;
 }
 .cards{
     display: flex;
-    padding: 32px;
     flex-wrap: wrap;
-    gap: 30px;
     justify-content: center;
+    align-items: center;
+    padding: 32px;
 }
-  
 .card {
     border: 1px solid #eee;
     box-shadow: 2px 4px 16px rgba(0,0,0,.06);
     border-radius: 4px;
+    display: flex;
     width: 400px;
 }
 
