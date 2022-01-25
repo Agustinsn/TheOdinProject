@@ -1,0 +1,99 @@
+body{
+    margin: 0;
+    min-width: 100vh;
+
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1F2937;
+    padding: 50px;
+}
+.header-logo{
+    color: white;
+}
+.header-links-ul{
+    display: flex;
+    gap: 20px;
+}
+.header-main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #1F2937;
+    padding:50px 0 50px ;
+    gap: 150px;
+}
+.header-text{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    color: white;
+}
+.header-title{
+    font-size: 48px;
+    font-weight: bold;
+
+}
+.header-body{
+    display: flex;
+    margin-top: 30px;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+.header-img{
+    display: flex;
+    flex-direction: column;
+
+}
+.credits1, .credits1 a{
+    font-size: 12px;
+    color: white;
+}
+.header-img img{
+    width: 400px;
+}
+ul, a{
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    color: WHITE;
+    font-size: 20px;
+    font-weight:bold;
+}
+.body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+}
+.body-title{
+    font-size: 36px;
+    font-weight: bold;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+   
+}
+.card{
+    display: flex;
+    border: black solid ;
+    width: 200px;
+    border-radius: 10px;
+}
+
+
+.footer{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
